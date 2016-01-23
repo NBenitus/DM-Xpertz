@@ -1,0 +1,53 @@
+.ipsClearfix{
+padding-top: 0px;
+}
+
+.navbar{
+/*background:#3C6994;*/
+background:black;
+border-style:none;
+padding-left:0px;
+}
+
+/*.navbar-nav {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}*/
+
+/* Setting Menu options (Browse and Activity) as black */
+.dropdown{
+    background:black;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  background:black;
+/*  background-image: -webkit-gradient(linear, left top, left bottom, from(blue), to(cyan));
+  background-image: -webkit-linear-gradient(top, blue 0%, cyan 100%);
+  background-image:      -o-linear-gradient(top, blue 0%, cyan 100%);
+  background-image:         linear-gradient(to bottom, blue 0%,cyan 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='blue', endColorstr='cyan',GradientType=0 );  IE6-9 
+  background-repeat: repeat-x;  Repeat the gradient */
+  text-align: center;
+}
+
+.dropdown-menu{
+    z-index: 1001;
+}
+
+.navbar-right{
+    padding-right: 20px;
+}
+
+.carousel{
+    height: 240px;
+}
+
+.ipsPageHeader{
+    padding-top:20px;
+}
